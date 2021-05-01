@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
 body {
-  background-color: #808080;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -11,16 +11,22 @@ h1 {
 }
 
 button {
+  background-color: #cb3234;
   border-radius: 10px;
+}
+
+button:hover{
+  background-color: #fff;
+  cursor: pointer;
 }
 
 #contenitore {
   height: 250px;
   width: 500px;
-  border: 10px solid #FF0000;
+  border: 10px solid #cb3234;
   margin: auto;
   margin-top: 50px;
-  background-color: #808080;
+  background-color: #ffffff;
   border-radius: 10px;
 }
 
@@ -29,9 +35,9 @@ button {
   width: 250px;
   margin: auto;
   margin-top: 50px;
-  border: 1px solid #fff;
-  text-align: center;
-  background-color: #ffffff;
+  border: 10px solid #cb3234;
+  text-align: right;
+  background-color: #cb3234;
   font-family: "Zen Dots";
   border-radius: 10px;
 }
