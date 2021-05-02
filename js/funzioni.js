@@ -1,15 +1,9 @@
-let remove = document.getElementById('decrementatore');
-let add = document.getElementById('incrementatore');
+let display=0;
 
-let int = document.getElementById('numero');
-let integer = 0;
+function rimuovi(){
+  document.getElementsByClassName('numero')[0].innerHTML=display--;
+}
 
-remove.addEventListener('click', function(){
-  integer -=1;
-  int.innerHTML = integer;
-})
-
-add.addEventListener('click', function(){
-  integer +=1;
-  int.innerHTML = integer;
-})
+function aggiungi(){
+  document.getElementsByClassName('numero')[0].innerHTML=++display;
+}

@@ -30,7 +30,7 @@ button:hover{
   border-radius: 10px;
 }
 
-#numero {
+.numero {
   height: 50px;
   width: 250px;
   margin: auto;
